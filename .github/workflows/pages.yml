@@ -40,7 +40,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Build Docusaurus site
-        run: npm run build
+        run: |
+          npm install
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
