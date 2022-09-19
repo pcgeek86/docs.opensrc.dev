@@ -1,0 +1,8 @@
+{
+  "label": "Product Reviews",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about Trevor's thoughts on certain products."
+  }
+}
