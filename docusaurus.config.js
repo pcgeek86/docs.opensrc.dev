@@ -30,14 +30,12 @@ const config = {
   presets: [
     [
       'classic',
-      {
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         gtag: {
           trackingID: `G-VFQ86MQL7T`,
           anonymizeIP: false
-        }
-      },
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
