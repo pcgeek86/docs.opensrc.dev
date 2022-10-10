@@ -45,7 +45,7 @@ scoop install git
 
 Once you've installed the Git package via Scoop, you can add other Scoop "buckets."
 Buckets contain the metadata for Scoop packages, which allows you to search for and install them.
-For example, to install the "extras" bucket, which contains many popular applications, you can run the command below.
+For example, to install the ["extras" bucket](https://github.com/ScoopInstaller/Extras), which contains many popular applications, you can run the command below.
 
 ```pwsh
 scoop bucket add extras
