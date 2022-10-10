@@ -1,0 +1,63 @@
+# Automate Package Management on Microsoft Windows
+
+## Why Use a Windows Package Manager?
+
+When you set up a new Windows system, it typically takes a long time to install software packages.
+The manual process requires visiting a variety of websites in your browser, downloading the software packages individually, and then running through graphical installers.
+Additionally, you must manually update these packages over time, and many applications don't have built-in auto-updaters.
+This manual installation and updating process is onerous, and could be greatly simplified.
+
+## About Windows Package Managers
+
+You can install, update, and remove software package on the Microsoft Windows platform using command line automation tools.
+There are several different tools available.
+
+* [Scoop](https://scoop.sh/)
+* [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
+* [Chocolatey](https://chocolatey.org/)
+
+## Scoop
+
+The Scoop package manage is an open source, community-supported project.
+Many popular software development tools are available for Scoop.
+You can install the Scoop package manager with a single command, using PowerShell.
+
+```pwsh
+irm get.scoop.sh | iex
+```
+
+### Install Git Package with Scoop
+
+Once Scoop has been installed on your system, you can install software package with it.
+One of the most important software packages you'll need is Git.
+You'll need to install Git in order to add other Scoop buckets.
+This happens because Scoop package metadata is stored in Git repositories on GitHub.
+
+```pwsh
+scoop install git
+```
+
+### Add Buckets to Scoop
+
+Once you've installed the Git package via Scoop, you can add other Scoop "buckets."
+Buckets contain the metadata for Scoop packages, which allows you to search for and install them.
+For example, to install the "extras" bucket, which contains many popular applications, you can run the command below.
+
+```pwsh
+scoop bucket add extras
+```
+
+### Popular Scoop Packages
+
+Some of the popular software development tools that you might need to install with the scoop package manager include the following.
+
+| Name                         | Description                                                                                | Install Command               |
+| ---------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------- |
+| Microsoft Visual Studio Code | Open source, cross-platform text editor for software developers                            | scoop install extras/vscode   |
+| Hashicorp Terraform          | Open source, cross-platform automation tool to deploy multi-cloud infrastructure resources | scoop install main/terraform  |
+| WinSCP                       | Open source SCP/SFTP/FTP GUI for Windows                                                   | scoop install extras/winscp   |
+| kubectl                      | The official Kubernetes command line client to manage cluster resources                    | scoop install main/kubectl    |
+| OpenLens                     | Open source GUI for managing Kubernetes resources                                          | scoop install extras/openlens |
+| Mockoon                      | Open source, cross-platform GUI for REST API mocking                                       | scoop install extras/mockoon  |
+| AWS CLI Tool                 | Cross-platform tool to manage cloud resources on Amazon Web Services (AWS)                 | scoop install main/aws        |
+| Azure CLI Tool               | Cross-platform CLI tool to manage cloud resources on Microsoft Azure                       | scoop install main/azure-cli  |
