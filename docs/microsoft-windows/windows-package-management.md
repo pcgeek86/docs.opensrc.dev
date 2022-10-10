@@ -7,6 +7,10 @@ The manual process requires visiting a variety of websites in your browser, down
 Additionally, you must manually update these packages over time, and many applications don't have built-in auto-updaters.
 This manual installation and updating process is onerous, and could be greatly simplified.
 
+By using a command line package manager, you can greatly simplify the process of installing packages on a fresh Windows system.
+You also gain the simplification of updating software packages, as you don't have to navigate different websites manually, for each package.
+Command line package managers can be scheduled to run inside Windows Task Scheduler, to automatically update packages periodically (ie. daily, weekly).
+
 ## About Windows Package Managers
 
 You can install, update, and remove software package on the Microsoft Windows platform using command line automation tools.
