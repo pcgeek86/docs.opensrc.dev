@@ -31,7 +31,7 @@ const config = {
     [
       'classic',
       {
-        googleAnalytics: {
+        gtag: {
           trackingID: `G-VFQ86MQL7T`,
           anonymizeIP: false
         }
