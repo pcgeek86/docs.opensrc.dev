@@ -30,6 +30,12 @@ const config = {
   presets: [
     [
       'classic',
+      {
+        googleAnalytics: {
+          trackingID: `G-VFQ86MQL7T`,
+          anonymizeIP: false
+        }
+      },
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
