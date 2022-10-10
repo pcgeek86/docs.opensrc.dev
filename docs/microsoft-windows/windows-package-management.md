@@ -76,3 +76,6 @@ Some of the popular software development tools that you might need to install wi
 | Caddy                        | Web server and reverse proxy, very easy to use & configure                                         | scoop install main/caddy      |
 | Draw.io                      | Open source, cross-platform GUI tool for building complex cloud / network / generic diagrams       | scoop install extras/draw.io  |
 | DBeaver                      | Open-source "community edition" GUI tool for managing databases (MySQL, Postgres, MongoDB, etc.)   | scoop install extras/dbeaver  |
+| Telegraf                     | Open source, cross-platform metrics gathering agent from InfluxData                                | scoop install main/telegraf   |
+| Postman                      | Freeware REST API client GUI for testing APIs                                                      | scoop install extras/postman  |
+| Rufus                        | Open source tool for easily flashing bootable USB drives with operating system images              | scoop install extras/rufus    |
