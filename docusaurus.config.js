@@ -64,7 +64,7 @@ const config = {
         title: 'Trevor Sullivan',
         logo: {
           alt: 'Trevor Sullivan Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
