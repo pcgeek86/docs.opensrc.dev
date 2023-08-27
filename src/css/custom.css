@@ -5,6 +5,14 @@
  */
 
 /* You can override the default Infima variables here. */
+/*
+Hex     RGB
+#920075	(146,0,117)   Medium Pink
+#2e2157	(46,33,87)    Dark Purple
+#2de2e6	(45,226,230)  Cyan
+#540d6e	(84,13,110)   Purple
+#0d0221	(13,2,33)     Black
+*/
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -19,12 +27,28 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #2e2157;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-light: #2de2e6;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-breadcrumb-color-active: var(--ifm-color-primary-light);
+}
+
+.navbar__link--active, .menu__link--active, .pagination-nav__label, .pagination-nav__link, .breadcrumbs__item, .breadcrumbs__item:active, .breadcrumbs__link, .breadcrumbs__link:active, .navbar__title {
+  color: var(--ifm-color-primary-light);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.navbar__item:hover, .menu__link:hover, .breadcrumbs__link:hover {
+  color: #920075;
+}
+
+/* Makes a button glow */
+.button_highlight {
+
+  box-shadow: 0 0 25px 10px var(--ifm-color-primary-light);
 }

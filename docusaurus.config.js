@@ -60,6 +60,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+      },
       navbar: {
         title: 'Trevor Sullivan',
         logo: {
@@ -68,12 +72,19 @@ const config = {
         },
         items: [
           {
+            type: 'search',
+            position: 'right',
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: 'https://youtube.com/trevorsullivan', label: 'YouTube', position: 'right'
+          },
           {
             href: 'https://github.com/pcgeek86/docs.opensrc.dev',
             label: 'GitHub',
