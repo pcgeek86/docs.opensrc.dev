@@ -11,6 +11,7 @@ For example, [Trevor Sullivan](https://youtube.com/trevorsullivan) has a [free p
 Some of the Rust topics covered in this video series include:
 
 | Title | Length |
+| - | - |
 | [Install the Rust Toolchain on an Ubuntu Linux Server 🦀](https://youtu.be/lTjGt17bQ3k) | 30:11 |
 | [Beginner's Guide to Rust Data Types and Variables 🦀](https://youtu.be/MJrBLTHJPCo) | 26:12 |
 | [Rust Functions and Modules 🦀](https://youtu.be/io7MSlvYyWg) | 21:55 |

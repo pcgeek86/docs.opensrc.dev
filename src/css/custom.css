@@ -48,7 +48,10 @@ Hex     RGB
 }
 
 /* Makes a button glow */
-.button_highlight {
-
+.button_highlight { 
   box-shadow: 0 0 25px 10px var(--ifm-color-primary-light);
+}
+
+.theme-doc-markdown a {
+  color: var(--ifm-color-primary-light);
 }
