@@ -22,5 +22,6 @@ Some of the Rust topics covered in this video series include:
 | [Intro to Developing User-Defined Rust Structs 🦀](https://youtu.be/3Ly25IYHIMc) | 41:40 |
 | [Implement Methods on Rust Structs 🦀](https://youtu.be/7EYSXQFRyKY) | 27:27 |
 | [Rust Generics and Traits: Define Common Struct Behaviors 🦀](https://www.youtube.com/watch?v=XKbOVFt3UNY) | 32:22 |
+| [Use the Rust Vec Type for Dynamically Expanding Arrays 🦀](https://www.youtube.com/watch?v=VIBbzFQcedU) | 45:11 |
 
 Please leave a comment on these videos and let me know your feedback, and what other topics you're interested in!
