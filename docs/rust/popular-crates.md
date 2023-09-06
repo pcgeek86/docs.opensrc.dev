@@ -11,3 +11,33 @@ title: Popular Rust Crates
 | [regex](https://github.com/rust-lang/regex) | regex,parser | implementation of regular expressions for Rust |
 | [image](https://github.com/image-rs/image) | image,file | Encoding and decoding images in Rust |
 | [tokio](https://github.com/tokio-rs/tokio) | async | runtime for writing reliable asynchronous applications with Rust |
+| [tray-item-rs](https://github.com/olback/tray-item-rs) | gui | Multi-platform system tray indicator |
+
+## User Interface
+
+| Name | Tags | Description |
+|-|-|-|
+| [egui](https://github.com/emilk/egui) | gui | easy-to-use immediate mode GUI in Rust (web + native) |
+| [Dioxus](https://github.com/DioxusLabs/dioxus/) | gui, react | Fullstack GUI library for desktop, web, mobile, and more |
+| [Xilem](https://github.com/linebender/xilem) | gui | experimental Rust native UI framework |
+| [Dominator](https://github.com/Pauan/rust-dominator) | gui, reactive | Zero-cost ultra-high-performance declarative DOM library using FRP signals for Rust |
+| [gtk3](https://github.com/gtk-rs/gtk3-rs) | gui, gtk, linux | Rust bindings for GTK 3 |
+| [gtk3](https://github.com/gtk-rs/gtk4-rs) | gui, gtk, linux | Rust bindings for GTK 4 |
+| [imgui](https://github.com/imgui-rs/imgui-rs) | gui, imgui | Rust bindings for Dear ImGui |
+| [Basalt](https://github.com/AustinJ235/basalt) | gui | window/ui framework for building desktop applications |
+| [relm4](https://github.com/Relm4/Relm4) | gui, gtk | Idiomatic, GTK+-based GUI library |
+| [qmetaobject](https://github.com/woboq/qmetaobject-rs) | gui, qt | Integrate Qml and Rust |
+| [slint](https://github.com/slint-ui/slint) | gui | declarative GUI toolkit to build native user interfaces for applications |
+| [tauri](https://github.com/tauri-apps/tauri) | gui | Build smaller, faster, and more secure desktop applications with a web frontend |
+| [WinSafe](https://github.com/rodrigocfd/winsafe) | gui, windows | Windows API and GUI in safe, idiomatic Rust |
+
+## Graphics
+
+| Name | Tags | Description |
+|-|-|-|
+| [wgpu](https://github.com/gfx-rs/wgpu) | graphics | Cross-platform, safe, pure-rust graphics api |
+| [vulkano](https://github.com/vulkano-rs/vulkano) | graphics | Safe and rich Rust wrapper around the Vulkan API |
+| [miniquad](https://github.com/not-fl3/miniquad) | graphics | Cross platform rendering in Rust |
+| [glium](https://github.com/glium/glium) | graphics, opengl | Safe OpenGL wrapper for the Rust language |
+| [ash](https://github.com/ash-rs/ash) | graphics, vulkan | lightweight wrapper around Vulkan |
+| [WebRender](https://github.com/servo/webrender) | browser
