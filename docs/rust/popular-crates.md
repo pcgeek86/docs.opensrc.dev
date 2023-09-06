@@ -12,6 +12,8 @@ title: Popular Rust Crates
 | [image](https://github.com/image-rs/image) | image,file | Encoding and decoding images in Rust |
 | [tokio](https://github.com/tokio-rs/tokio) | async | runtime for writing reliable asynchronous applications with Rust |
 | [tray-item-rs](https://github.com/olback/tray-item-rs) | gui | Multi-platform system tray indicator |
+| [ratatui](https://github.com/ratatui-org/ratatui) | tui, terminal | Rust library that's all about cooking up terminal user interfaces |
+
 
 ## User Interface
 
@@ -30,6 +32,7 @@ title: Popular Rust Crates
 | [slint](https://github.com/slint-ui/slint) | gui | declarative GUI toolkit to build native user interfaces for applications |
 | [tauri](https://github.com/tauri-apps/tauri) | gui | Build smaller, faster, and more secure desktop applications with a web frontend |
 | [WinSafe](https://github.com/rodrigocfd/winsafe) | gui, windows | Windows API and GUI in safe, idiomatic Rust |
+| [Iced](https://github.com/iced-rs/iced) | gui | cross-platform GUI library for Rust |
 
 ## Graphics
 
