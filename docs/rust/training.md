@@ -28,5 +28,8 @@ Some of the Rust topics covered in this video series include:
 | [Rust Time Module and Chrono Crate Intro 🦀](https://www.youtube.com/watch?v=hZ0hT2LVxCc) | 58:39 |
 | [Rust Threading Basics 🦀 Rust Tutorial](https://www.youtube.com/watch?v=YKBwKy5PrpQ) | 28:26 |
 | [Rust Scoped Threads 🦀 ](https://www.youtube.com/watch?v=3bFSrhm4nEM) | 23:36 |
+| [Share Rust Thread Data With Mutexes 🦀](https://www.youtube.com/watch?v=ycM5jqYT9Og) | 35:36 |
+| [Message Passing With Rust MPSC Channels 🦀](https://www.youtube.com/watch?v=0P6XfhM5PRA) | 30:52 |
+| [Beginner's Guide to Rust Filesystem APIs 🦀](https://www.youtube.com/watch?v=0H3pg_pjyRE) | 41:02 |
 
 Please leave a comment on these videos and let me know your feedback, and what other topics you're interested in!

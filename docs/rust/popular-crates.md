@@ -44,3 +44,10 @@ title: Popular Rust Crates
 | [glium](https://github.com/glium/glium) | graphics, opengl | Safe OpenGL wrapper for the Rust language |
 | [ash](https://github.com/ash-rs/ash) | graphics, vulkan | lightweight wrapper around Vulkan |
 | [WebRender](https://github.com/servo/webrender) | browser
+
+## Hardware
+
+| Name | Tags | Description |
+|-|-|-|
+| [hidapi](https://github.com/libusb/hidapi) | usb,hid | cross-platform library for communicating with HID devices |
+
