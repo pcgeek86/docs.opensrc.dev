@@ -7,6 +7,16 @@ PowerShell is an excellent language to automate file system operations.
 Because the language is verbose, it is easy for engineers to read other people's code and understand what it's doing.
 Since PowerShell is built on .NET Core, it's easy to automate filesystems on major operating systems, including Windows, MacOS, and various Linux distributions.
 
+Some common filesystem operations you might need to perform include:
+
+* Creating a new directory
+* Deleting a directory tree
+* Delete one or more files
+* Create a new text or binary file
+
+In the following sections, we'll explore how you can accomplish some of these common tasks.
+Remember that PowerShell generally provides multiple approaches to performing any given task, so these examples just provide one approach.
+
 ## List Files & Directories
 
 One of the most simple file system operations is to list files and directories, underneath a given directory path.
