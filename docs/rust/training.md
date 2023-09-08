@@ -31,5 +31,7 @@ Some of the Rust topics covered in this video series include:
 | [Share Rust Thread Data With Mutexes 🦀](https://www.youtube.com/watch?v=ycM5jqYT9Og) | 35:36 |
 | [Message Passing With Rust MPSC Channels 🦀](https://www.youtube.com/watch?v=0P6XfhM5PRA) | 30:52 |
 | [Beginner's Guide to Rust Filesystem APIs 🦀](https://www.youtube.com/watch?v=0H3pg_pjyRE) | 41:02 |
+| [Overview of Rust Cargo Tool 🦀📦](https://www.youtube.com/watch?v=YsGLqvMIjrQ) | 28:06 |
+| [Parse CLI Arguments With Rust Standard Crate 🦀📦](https://www.youtube.com/watch?v=yZQ2vYsRE7A) | 26:50 |
 
 Please leave a comment on these videos and let me know your feedback, and what other topics you're interested in!
