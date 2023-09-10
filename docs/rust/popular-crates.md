@@ -15,6 +15,13 @@ title: Popular Rust Crates
 | [ratatui](https://github.com/ratatui-org/ratatui) | tui, terminal | Rust library that's all about cooking up terminal user interfaces |
 
 
+## Data
+
+| Name | Tags | Description |
+|-|-|-|
+| [polars](https://github.com/pola-rs/polars/) | data | Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends |
+| [serde](https://github.com/serde-rs/serde) | data,json | Serialization framework for Rust |
+
 ## User Interface
 
 | Name | Tags | Description |
@@ -24,7 +31,7 @@ title: Popular Rust Crates
 | [Xilem](https://github.com/linebender/xilem) | gui | experimental Rust native UI framework |
 | [Dominator](https://github.com/Pauan/rust-dominator) | gui, reactive | Zero-cost ultra-high-performance declarative DOM library using FRP signals for Rust |
 | [gtk3](https://github.com/gtk-rs/gtk3-rs) | gui, gtk, linux | Rust bindings for GTK 3 |
-| [gtk3](https://github.com/gtk-rs/gtk4-rs) | gui, gtk, linux | Rust bindings for GTK 4 |
+| [gtk4](https://github.com/gtk-rs/gtk4-rs) | gui, gtk, linux | Rust bindings for GTK 4 |
 | [imgui](https://github.com/imgui-rs/imgui-rs) | gui, imgui | Rust bindings for Dear ImGui |
 | [Basalt](https://github.com/AustinJ235/basalt) | gui | window/ui framework for building desktop applications |
 | [relm4](https://github.com/Relm4/Relm4) | gui, gtk | Idiomatic, GTK+-based GUI library |
