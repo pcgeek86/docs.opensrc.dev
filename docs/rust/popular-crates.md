@@ -3,6 +3,13 @@ sidebar_position: 1
 title: Popular Rust Crates
 ---
 
+## CLI Tools
+
+| Name | Tags | Description |
+|-|-|-|
+| [eza](https://github.com/eza-community/eza) | cli,shell | replacement for ls |
+
+
 | Name | Tags | Description |
 |-|-|-|
 | [Rocket](https://github.com/SergioBenitez/Rocket) | http,api,rest | Web framework for Rust |
@@ -13,7 +20,6 @@ title: Popular Rust Crates
 | [tokio](https://github.com/tokio-rs/tokio) | async | runtime for writing reliable asynchronous applications with Rust |
 | [tray-item-rs](https://github.com/olback/tray-item-rs) | gui | Multi-platform system tray indicator |
 | [ratatui](https://github.com/ratatui-org/ratatui) | tui, terminal | Rust library that's all about cooking up terminal user interfaces |
-
 
 ## Data
 
