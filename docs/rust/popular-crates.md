@@ -21,6 +21,9 @@ title: Popular Rust Crates
 |-|-|-|
 | [polars](https://github.com/pola-rs/polars/) | data | Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends |
 | [serde](https://github.com/serde-rs/serde) | data,json | Serialization framework for Rust |
+| [skim](https://github.com/lotabout/skim) | data,search | Fuzzy Finder in rust |
+| [quickwit](https://github.com/quickwit-oss/quickwit) | data,search | Sub-second search & analytics engine on cloud storage |
+| [qdrant](https://github.com/qdrant/qdrant) | data,search,vector | vector similarity search engine and vector database |
 
 ## User Interface
 
