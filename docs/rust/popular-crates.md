@@ -7,32 +7,36 @@ title: Popular Rust Crates
 
 | Name | Tags | Description |
 |-|-|-|
-| [eza](https://github.com/eza-community/eza) | cli,shell | replacement for ls |
 | [bat](https://github.com/sharkdp/bat) | cli,shell | Rust clone of cat CLI tool |
-| [dust](https://github.com/bootandy/dust) | cli,disk,shell,tui | more intuitive version of du |
-| [ripgrep](https://github.com/BurntSushi/ripgrep) | cli,shell | recursively searches directories for a regex pattern while respecting your gitignore |
-| [fd](https://github.com/sharkdp/fd) | cli,shell | simple, fast and user-friendly alternative to 'find' |
-| [procs](https://github.com/dalance/procs) | cli,shell | modern replacement for ps |
-| [tealdeer](https://github.com/dbrgn/tealdeer) | cli,shell | very fast implementation of tldr |
 | [bottom](https://github.com/ClementTsang/bottom) | cli,shell,system | cross-platform graphical process/system monitor |
-| [zoxide](https://github.com/ajeetdsouza/zoxide) | cli,shell | smarter cd command |
 | [broot](https://github.com/Canop/broot) | cli,shell,filesystem | new way to see and navigate directory trees |
-| [tokei](https://github.com/XAMPPRocky/tokei) | cli,shell,code | displays statistics about your code |
+| [difftastic](https://github.com/Wilfred/difftastic) | cli,shell,diff,code | structural diff that understands syntax |
+| [dog](https://github.com/ogham/dog) | cli,shell,dns,network | command-line DNS client |
+| [dust](https://github.com/bootandy/dust) | cli,disk,shell,tui | more intuitive version of du |
+| [eza](https://github.com/eza-community/eza) | cli,shell | replacement for ls |
+| [fd](https://github.com/sharkdp/fd) | cli,shell | simple, fast and user-friendly alternative to 'find' |
+| [ffsend](https://github.com/timvisee/ffsend) | cli,shell,sharing,files | Easily and securely share files from the command line |
+| [gptman](https://github.com/rust-disk-partition-management/gptman) | cli,shell,disk,partition | CLI tool for Linux that allows you to copy a partition from one disk to another and more |
+| [hyperfine](https://github.com/sharkdp/hyperfine) | cli,shell,benchmark | command-line benchmarking tool |
 | [monolith](https://github.com/y2z/monolith) | cli,shell,html,web | save complete web pages as a single HTML file |
 | [macchina](https://github.com/Macchina-CLI/macchina) | cli,shell,system | system information frontend |
 | [ouch](https://github.com/ouch-org/ouch) | cli,shell,compression,filesystem | compression and decompression for your terminal |
-| [difftastic](https://github.com/Wilfred/difftastic) | cli,shell,diff,code | structural diff that understands syntax |
-| [topgrade](https://github.com/topgrade-rs/topgrade) | cli,shell,system | keeps your system up-to-date |
+| [procs](https://github.com/dalance/procs) | cli,shell | modern replacement for ps |
+| [ripgrep](https://github.com/BurntSushi/ripgrep) | cli,shell | recursively searches directories for a regex pattern while respecting your gitignore |
 | [sd](https://github.com/chmln/sd) | cli,shell | Intuitive find & replace CLI (sed alternative) |
+| [tealdeer](https://github.com/dbrgn/tealdeer) | cli,shell | very fast implementation of tldr |
+| [tokei](https://github.com/XAMPPRocky/tokei) | cli,shell,code | displays statistics about your code |
+| [topgrade](https://github.com/topgrade-rs/topgrade) | cli,shell,system | keeps your system up-to-date |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | cli,shell | smarter cd command |
 
 ## Terminal Libraries
 
 | Name | Tags | Description |
 |-|-|-|
+| [clap](https://github.com/clap-rs/clap) | cli,shell | full featured, fast Command Line Argument Parser |
 | [comfy-table](https://github.com/Nukesor/comfy-table) | cli,shell,tui | Build beautiful terminal tables with automatic content wrapping |
 | [crossterm](https://github.com/crossterm-rs/crossterm) | terminal | Cross-platform terminal library for Rust |
 | [ratatui](https://github.com/ratatui-org/ratatui) | tui,terminal | Rust library that's all about cooking up terminal user interfaces |
-| [clap](https://github.com/clap-rs/clap) | cli,shell | full featured, fast Command Line Argument Parser |
 
 ## Async
 
