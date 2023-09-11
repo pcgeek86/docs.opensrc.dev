@@ -8,18 +8,44 @@ title: Popular Rust Crates
 | Name | Tags | Description |
 |-|-|-|
 | [eza](https://github.com/eza-community/eza) | cli,shell | replacement for ls |
+| [bat](https://github.com/sharkdp/bat) | cli,shell | Rust clone of cat CLI tool |
+| [dust](https://github.com/bootandy/dust) | cli,disk,shell,tui | more intuitive version of du |
+| [ripgrep](https://github.com/BurntSushi/ripgrep) | cli,shell | recursively searches directories for a regex pattern while respecting your gitignore |
+| [fd](https://github.com/sharkdp/fd) | cli,shell | simple, fast and user-friendly alternative to 'find' |
+| [procs](https://github.com/dalance/procs) | cli,shell | modern replacement for ps |
+| [tealdeer](https://github.com/dbrgn/tealdeer) | cli,shell | very fast implementation of tldr |
+| [bottom](https://github.com/ClementTsang/bottom) | cli,shell,system | cross-platform graphical process/system monitor |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | cli,shell | smarter cd command |
+| [broot](https://github.com/Canop/broot) | cli,shell,filesystem | new way to see and navigate directory trees |
+| [tokei](https://github.com/XAMPPRocky/tokei) | cli,shell,code | displays statistics about your code |
+| [monolith](https://github.com/y2z/monolith) | cli,shell,html,web | save complete web pages as a single HTML file |
+| [macchina](https://github.com/Macchina-CLI/macchina) | cli,shell,system | system information frontend |
+| [ouch](https://github.com/ouch-org/ouch) | cli,shell,compression,filesystem | compression and decompression for your terminal |
+| [difftastic](https://github.com/Wilfred/difftastic) | cli,shell,diff,code | structural diff that understands syntax |
+| [topgrade](https://github.com/topgrade-rs/topgrade) | cli,shell,system | keeps your system up-to-date |
+| [sd](https://github.com/chmln/sd) | cli,shell | Intuitive find & replace CLI (sed alternative) |
 
+## Terminal Libraries
+
+| Name | Tags | Description |
+|-|-|-|
+| [comfy-table](https://github.com/Nukesor/comfy-table) | cli,shell,tui | Build beautiful terminal tables with automatic content wrapping |
+| [crossterm](https://github.com/crossterm-rs/crossterm) | terminal | Cross-platform terminal library for Rust |
+| [ratatui](https://github.com/ratatui-org/ratatui) | tui,terminal | Rust library that's all about cooking up terminal user interfaces |
+| [clap](https://github.com/clap-rs/clap) | cli,shell | full featured, fast Command Line Argument Parser |
+
+## Async
+
+| Name | Tags | Description |
+|-|-|-|
+| [tokio](https://github.com/tokio-rs/tokio) | async | runtime for writing reliable asynchronous applications with Rust |
 
 | Name | Tags | Description |
 |-|-|-|
 | [Rocket](https://github.com/SergioBenitez/Rocket) | http,api,rest | Web framework for Rust |
 | [nom](https://github.com/rust-bakery/nom) | parser | Rust parser combinator framework |
-| [crossterm](https://github.com/crossterm-rs/crossterm) | terminal | Cross-platform terminal library for Rust |
 | [regex](https://github.com/rust-lang/regex) | regex,parser | implementation of regular expressions for Rust |
 | [image](https://github.com/image-rs/image) | image,file | Encoding and decoding images in Rust |
-| [tokio](https://github.com/tokio-rs/tokio) | async | runtime for writing reliable asynchronous applications with Rust |
-| [tray-item-rs](https://github.com/olback/tray-item-rs) | gui | Multi-platform system tray indicator |
-| [ratatui](https://github.com/ratatui-org/ratatui) | tui, terminal | Rust library that's all about cooking up terminal user interfaces |
 
 ## Data
 
@@ -35,35 +61,36 @@ title: Popular Rust Crates
 
 | Name | Tags | Description |
 |-|-|-|
-| [egui](https://github.com/emilk/egui) | gui | easy-to-use immediate mode GUI in Rust (web + native) |
+| [Basalt](https://github.com/AustinJ235/basalt) | gui | window/ui framework for building desktop applications |
 | [Dioxus](https://github.com/DioxusLabs/dioxus/) | gui, react | Fullstack GUI library for desktop, web, mobile, and more |
-| [Xilem](https://github.com/linebender/xilem) | gui | experimental Rust native UI framework |
 | [Dominator](https://github.com/Pauan/rust-dominator) | gui, reactive | Zero-cost ultra-high-performance declarative DOM library using FRP signals for Rust |
+| [egui](https://github.com/emilk/egui) | gui | easy-to-use immediate mode GUI in Rust (web + native) |
+| [Xilem](https://github.com/linebender/xilem) | gui | experimental Rust native UI framework |
 | [gtk3](https://github.com/gtk-rs/gtk3-rs) | gui, gtk, linux | Rust bindings for GTK 3 |
 | [gtk4](https://github.com/gtk-rs/gtk4-rs) | gui, gtk, linux | Rust bindings for GTK 4 |
+| [Iced](https://github.com/iced-rs/iced) | gui | cross-platform GUI library for Rust |
 | [imgui](https://github.com/imgui-rs/imgui-rs) | gui, imgui | Rust bindings for Dear ImGui |
-| [Basalt](https://github.com/AustinJ235/basalt) | gui | window/ui framework for building desktop applications |
-| [relm4](https://github.com/Relm4/Relm4) | gui, gtk | Idiomatic, GTK+-based GUI library |
 | [qmetaobject](https://github.com/woboq/qmetaobject-rs) | gui, qt | Integrate Qml and Rust |
+| [relm4](https://github.com/Relm4/Relm4) | gui, gtk | Idiomatic, GTK+-based GUI library |
 | [slint](https://github.com/slint-ui/slint) | gui | declarative GUI toolkit to build native user interfaces for applications |
 | [tauri](https://github.com/tauri-apps/tauri) | gui | Build smaller, faster, and more secure desktop applications with a web frontend |
 | [WinSafe](https://github.com/rodrigocfd/winsafe) | gui, windows | Windows API and GUI in safe, idiomatic Rust |
-| [Iced](https://github.com/iced-rs/iced) | gui | cross-platform GUI library for Rust |
+| [tray-item-rs](https://github.com/olback/tray-item-rs) | gui | Multi-platform system tray indicator |
 
 ## Graphics
 
 | Name | Tags | Description |
 |-|-|-|
-| [wgpu](https://github.com/gfx-rs/wgpu) | graphics | Cross-platform, safe, pure-rust graphics api |
-| [vulkano](https://github.com/vulkano-rs/vulkano) | graphics | Safe and rich Rust wrapper around the Vulkan API |
-| [miniquad](https://github.com/not-fl3/miniquad) | graphics | Cross platform rendering in Rust |
-| [glium](https://github.com/glium/glium) | graphics, opengl | Safe OpenGL wrapper for the Rust language |
 | [ash](https://github.com/ash-rs/ash) | graphics, vulkan | lightweight wrapper around Vulkan |
+| [glium](https://github.com/glium/glium) | graphics, opengl | Safe OpenGL wrapper for the Rust language |
+| [miniquad](https://github.com/not-fl3/miniquad) | graphics | Cross platform rendering in Rust |
+| [vulkano](https://github.com/vulkano-rs/vulkano) | graphics | Safe and rich Rust wrapper around the Vulkan API |
 | [WebRender](https://github.com/servo/webrender) | browser
+| [wgpu](https://github.com/gfx-rs/wgpu) | graphics | Cross-platform, safe, pure-rust graphics api |
 
 ## Hardware
 
 | Name | Tags | Description |
 |-|-|-|
 | [hidapi](https://github.com/libusb/hidapi) | usb,hid | cross-platform library for communicating with HID devices |
-
+| [sysinfo](https://github.com/GuillaumeGomez/sysinfo) | system,hardware | Cross-platform library to fetch system information |
