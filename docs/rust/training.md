@@ -34,5 +34,6 @@ Some of the Rust topics covered in this video series include:
 | [Overview of Rust Cargo Tool 🦀📦](https://www.youtube.com/watch?v=YsGLqvMIjrQ) | 28:06 |
 | [Parse CLI Arguments With Rust Standard Crate 🦀📦](https://www.youtube.com/watch?v=yZQ2vYsRE7A) | 26:50 |
 | [Parse Rust CLI Args With Clap 🦀](https://www.youtube.com/watch?v=Ot3qCA3Iv_8) | 54:03 |
+| [Hitchhiker's Guide to JSON Data in Rust 🦀](https://www.youtube.com/watch?v=YLZtw8_aLwA) | 34:18 |
 
 Please leave a comment on these videos and let me know your feedback, and what other topics you're interested in!
