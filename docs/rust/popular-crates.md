@@ -61,6 +61,20 @@ title: Popular Rust Crates
 | [quickwit](https://github.com/quickwit-oss/quickwit) | data,search | Sub-second search & analytics engine on cloud storage |
 | [qdrant](https://github.com/qdrant/qdrant) | data,search,vector | vector similarity search engine and vector database |
 
+## Networking
+
+| Name | Tags | Description |
+|-|-|-|
+| [quiche](https://github.com/cloudflare/quiche) | http3,web | implementation of the QUIC transport protocol and HTTP/3 |
+| [reqwest](https://github.com/seanmonstar/reqwest) | http,web | easy and powerful Rust HTTP Client |
+| [hyper](https://github.com/hyperium/hyper) | http,web | low-level HTTP library for Rust |
+| [surf](https://github.com/http-rs/surf) | http,web | Fast and friendly HTTP client framework for async Rust |
+| [ureq](https://github.com/algesten/ureq) | http,web | A simple, safe HTTP client |
+| [actix-web](https://github.com/actix/actix-web) | http,web | powerful, pragmatic, and extremely fast web framework for Rust |
+| [isahc](https://github.com/sagebind/isahc/) | http,web | practical HTTP client that is fun to use |
+| [curl-rust](https://github.com/alexcrichton/curl-rust) | http,web | Rust bindings to libcurl |
+
+
 ## User Interface
 
 | Name | Tags | Description |
