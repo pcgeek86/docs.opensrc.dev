@@ -28,14 +28,16 @@ Hex     RGB
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #2e2157;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #2de2e6;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary-dark: #1c8a8c;
+  --ifm-color-primary-darker: #197e80;
+  --ifm-color-primary-darkest: #177173;
+  --ifm-color-primary-light: #26bdbf;
+  --ifm-color-primary-lighter: #29c9cc;
+  --ifm-color-primary-lightest: #2de2e6;
+  --ifm-link-color: var(--ifm-color-primary-light);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-breadcrumb-color-active: var(--ifm-color-primary-light);
+  --ifm-pagination-nav-color-hover: var(--ifm-color-primary-dark);
 }
 
 .navbar__link--active, .menu__link--active, .pagination-nav__label, .pagination-nav__link, .breadcrumbs__item, .breadcrumbs__item:active, .breadcrumbs__link, .breadcrumbs__link:active, .navbar__title {
@@ -43,8 +45,28 @@ Hex     RGB
   border-color: var(--ifm-color-primary-light);
 }
 
+.sidebarItemLink:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.pagination-nav__link:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary-light);
+}
+
+.sidebarItemLinkActive_I1ZP {
+  color: var(--ifm-color-primary-light) !important;
+}
+
 .navbar__item:hover, .menu__link:hover, .breadcrumbs__link:hover {
-  color: #920075;
+  color: #d92bb6;
 }
 
 /* Makes a button glow */
