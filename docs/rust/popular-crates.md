@@ -16,6 +16,7 @@ title: Popular Rust Crates
 | [eza](https://github.com/eza-community/eza) | cli,shell | replacement for ls |
 | [fd](https://github.com/sharkdp/fd) | cli,shell | simple, fast and user-friendly alternative to 'find' |
 | [ffsend](https://github.com/timvisee/ffsend) | cli,shell,sharing,files | Easily and securely share files from the command line |
+| [gitui](https://github.com/extrawurst/gitui) | cli,shell,git,code | terminal-ui for git |
 | [gptman](https://github.com/rust-disk-partition-management/gptman) | cli,shell,disk,partition | CLI tool for Linux that allows you to copy a partition from one disk to another and more |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | cli,shell,benchmark | command-line benchmarking tool |
 | [monolith](https://github.com/y2z/monolith) | cli,shell,html,web | save complete web pages as a single HTML file |
@@ -27,7 +28,14 @@ title: Popular Rust Crates
 | [tealdeer](https://github.com/dbrgn/tealdeer) | cli,shell | very fast implementation of tldr |
 | [tokei](https://github.com/XAMPPRocky/tokei) | cli,shell,code | displays statistics about your code |
 | [topgrade](https://github.com/topgrade-rs/topgrade) | cli,shell,system | keeps your system up-to-date |
+| [zellij](https://github.com/zellij-org/zellij) | cli,shell,tmux | terminal workspace with batteries included |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | cli,shell | smarter cd command |
+
+## Graphical Rust Tools
+
+| Name | Tags | Description |
+|-|-|-|
+| [Helix](https://github.com/helix-editor/helix) | gui,text,editor | post-modern modal text editor |
 
 ## Terminal Libraries
 
@@ -43,37 +51,42 @@ title: Popular Rust Crates
 | Name | Tags | Description |
 |-|-|-|
 | [tokio](https://github.com/tokio-rs/tokio) | async | runtime for writing reliable asynchronous applications with Rust |
+| [rayon](https://github.com/rayon-rs/rayon) | parallel,async | data parallelism library |
+
+
+## Other
 
 | Name | Tags | Description |
 |-|-|-|
-| [Rocket](https://github.com/SergioBenitez/Rocket) | http,api,rest | Web framework for Rust |
+
 | [nom](https://github.com/rust-bakery/nom) | parser | Rust parser combinator framework |
 | [regex](https://github.com/rust-lang/regex) | regex,parser | implementation of regular expressions for Rust |
 | [image](https://github.com/image-rs/image) | image,file | Encoding and decoding images in Rust |
+| [tl](https://crates.io/crates/tl) | html,parser | fast HTML parser |
 
 ## Data
 
 | Name | Tags | Description |
 |-|-|-|
 | [polars](https://github.com/pola-rs/polars/) | data | Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends |
-| [serde](https://github.com/serde-rs/serde) | data,json | Serialization framework for Rust |
-| [skim](https://github.com/lotabout/skim) | data,search | Fuzzy Finder in rust |
 | [quickwit](https://github.com/quickwit-oss/quickwit) | data,search | Sub-second search & analytics engine on cloud storage |
 | [qdrant](https://github.com/qdrant/qdrant) | data,search,vector | vector similarity search engine and vector database |
+| [serde](https://github.com/serde-rs/serde) | data,json | Serialization framework for Rust |
+| [skim](https://github.com/lotabout/skim) | data,search | Fuzzy Finder in rust |
 
 ## Networking
 
 | Name | Tags | Description |
 |-|-|-|
+| [actix-web](https://github.com/actix/actix-web) | http,web | powerful, pragmatic, and extremely fast web framework for Rust |
+| [curl-rust](https://github.com/alexcrichton/curl-rust) | http,web | Rust bindings to libcurl |
+| [hyper](https://github.com/hyperium/hyper) | http,web | low-level HTTP library for Rust |
+| [isahc](https://github.com/sagebind/isahc/) | http,web | practical HTTP client that is fun to use |
 | [quiche](https://github.com/cloudflare/quiche) | http3,web | implementation of the QUIC transport protocol and HTTP/3 |
 | [reqwest](https://github.com/seanmonstar/reqwest) | http,web | easy and powerful Rust HTTP Client |
-| [hyper](https://github.com/hyperium/hyper) | http,web | low-level HTTP library for Rust |
+| [Rocket](https://github.com/SergioBenitez/Rocket) | http,api,rest | Web framework for Rust |
 | [surf](https://github.com/http-rs/surf) | http,web | Fast and friendly HTTP client framework for async Rust |
 | [ureq](https://github.com/algesten/ureq) | http,web | A simple, safe HTTP client |
-| [actix-web](https://github.com/actix/actix-web) | http,web | powerful, pragmatic, and extremely fast web framework for Rust |
-| [isahc](https://github.com/sagebind/isahc/) | http,web | practical HTTP client that is fun to use |
-| [curl-rust](https://github.com/alexcrichton/curl-rust) | http,web | Rust bindings to libcurl |
-
 
 ## User Interface
 
@@ -112,3 +125,11 @@ title: Popular Rust Crates
 |-|-|-|
 | [hidapi](https://github.com/libusb/hidapi) | usb,hid | cross-platform library for communicating with HID devices |
 | [sysinfo](https://github.com/GuillaumeGomez/sysinfo) | system,hardware | Cross-platform library to fetch system information |
+
+## Profiling
+
+| Name | Tags | Description |
+|-|-|-|
+| [criterion](https://github.com/bheisler/criterion.rs) | benchmark,performance | Statistics-driven benchmarking library for Rust |
+| [profiling](https://github.com/aclysma/profiling) | profiling,performance | thin abstraction over instrumented profiling crates like puffin, optick, tracy, and superluminal-perf |
+| [inferno](https://github.com/jonhoo/inferno) | profiling,performance | Rust port of FlameGraph |
