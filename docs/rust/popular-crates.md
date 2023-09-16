@@ -15,6 +15,7 @@ title: Popular Rust Crates
 | [dust](https://github.com/bootandy/dust) | cli,disk,shell,tui | more intuitive version of du |
 | [eza](https://github.com/eza-community/eza) | cli,shell | replacement for ls |
 | [fd](https://github.com/sharkdp/fd) | cli,shell | simple, fast and user-friendly alternative to 'find' |
+| [felix](https://github.com/kyoheiu/felix) | cli,shell,filesystem | tui file manager with vim-like key mapping |
 | [ffsend](https://github.com/timvisee/ffsend) | cli,shell,sharing,files | Easily and securely share files from the command line |
 | [gitui](https://github.com/extrawurst/gitui) | cli,shell,git,code | terminal-ui for git |
 | [gptman](https://github.com/rust-disk-partition-management/gptman) | cli,shell,disk,partition | CLI tool for Linux that allows you to copy a partition from one disk to another and more |
@@ -73,6 +74,7 @@ title: Popular Rust Crates
 | [qdrant](https://github.com/qdrant/qdrant) | data,search,vector | vector similarity search engine and vector database |
 | [serde](https://github.com/serde-rs/serde) | data,json | Serialization framework for Rust |
 | [skim](https://github.com/lotabout/skim) | data,search | Fuzzy Finder in rust |
+| [watchexec](https://github.com/watchexec/watchexec) | data,filesystem | Executes commands in response to file modifications |
 
 ## Networking
 
@@ -115,9 +117,11 @@ title: Popular Rust Crates
 | [ash](https://github.com/ash-rs/ash) | graphics, vulkan | lightweight wrapper around Vulkan |
 | [glium](https://github.com/glium/glium) | graphics, opengl | Safe OpenGL wrapper for the Rust language |
 | [miniquad](https://github.com/not-fl3/miniquad) | graphics | Cross platform rendering in Rust |
+| [resvg](https://github.com/RazrFalcon/resvg) | svg,image,vector | SVG rendering library |
 | [vulkano](https://github.com/vulkano-rs/vulkano) | graphics | Safe and rich Rust wrapper around the Vulkan API |
 | [WebRender](https://github.com/servo/webrender) | browser
 | [wgpu](https://github.com/gfx-rs/wgpu) | graphics | Cross-platform, safe, pure-rust graphics api |
+
 
 ## Hardware
 
