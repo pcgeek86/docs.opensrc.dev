@@ -35,5 +35,8 @@ Some of the Rust topics covered in this video series include:
 | [Parse CLI Arguments With Rust Standard Crate 🦀📦](https://www.youtube.com/watch?v=yZQ2vYsRE7A) | 26:50 |
 | [Parse Rust CLI Args With Clap 🦀](https://www.youtube.com/watch?v=Ot3qCA3Iv_8) | 54:03 |
 | [Hitchhiker's Guide to JSON Data in Rust 🦀](https://www.youtube.com/watch?v=YLZtw8_aLwA) | 34:18 |
+| [Sending HTTP Requests in Rust Applications 🦀](https://www.youtube.com/watch?v=E2qnMh3W7TM) | 32:13 |
+| [Hands-on With Dynamic Dispatch Traits in Rust 🦀](https://www.youtube.com/watch?v=3biW5NkNnrk) | 37:09 |
+| [Implement the Simple Rust Default Trait 🦀](https://www.youtube.com/watch?v=i07Uq2sU5YI) | 19:19 |
 
 Please leave a comment on these videos and let me know your feedback, and what other topics you're interested in!
