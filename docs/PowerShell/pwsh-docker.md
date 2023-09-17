@@ -23,7 +23,7 @@ With Docker, it's easy to simply create more containers, using your custom image
 
 Alright, so now that you understand the benefits to using Docker to run your PowerShell scripts, let's take a look at **how** to run PowerShell scripts in containers!
 
-# Install Docker Engine
+## Install Docker Engine
 
 First of all, you'll need to install the Docker Engine. 
 Docker Engine is a background service (daemon) that you interact with using the Docker CLI tool.
@@ -31,7 +31,7 @@ Once Docker Engine is installed, you can download the base PowerShell container 
 
 You can install the Docker Engine on a Linux system using a package manager like `apt`, `zypper`, or `yum`.
 
-## Ubuntu
+### Ubuntu
 
 On the popular Ubuntu Linux operating system, you can use this command to install Docker Engine:
 
@@ -83,7 +83,7 @@ For example, to download PowerShell 6.1.0 on Fedora 28, you would use the tag `6
 docker pull mcr.microsoft.com/powershell:6.1.0-fedora-28
 ```
 
-# Run PowerShell Container
+## Run PowerShell Container
 
 To run a PowerShell container, that you can interact with, you can use the following command.
 The `--interactive` and `--tty` parameters can be shortened to `-it` if you prefer.
@@ -110,7 +110,7 @@ docker start --interactive --attach <containerID>
 Congratulations! You've run PowerShell inside a Linux container, without having to "install" it directly onto the operating system.
 From here, you can download a PowerShell script using `Invoke-WebRequest`, and then execute it, or install `vim` and write a script directly inside the container filesystem.
 
-# Build Custom Container Image
+## Build Custom Container Image
 
 :::note TODO
 This content coming soon!
