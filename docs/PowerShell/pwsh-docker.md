@@ -112,6 +112,100 @@ From here, you can download a PowerShell script using `Invoke-WebRequest`, and t
 
 ## Build Custom Container Image
 
-:::note TODO
-This content coming soon!
-:::
+Now that you know how to run PowerShell by itself inside a Linux container, it's time to build your own, custom image.
+You'll use the `docker build` command to invoke the build process, but first we need an instruction file.
+The instruction file is a simple text file called `Dockerfile`.
+You can technically use a different file name, but this is the default that Docker Engine looks for, in your project directory.
+
+### Set Base Container Image
+
+Let's start from the top. The first thing we need to do is tell Docker to begin with the PowerShell image as the "base."
+Any additional instructions will build upon the PowerShell base, so we don't have to install PowerShell ourselves.
+The `FROM` instruction is what indicates the base image you want to use.
+
+```
+FROM mcr.microsoft.com/powershell
+```
+
+### Inject Script File
+
+Next, we need to inject a custom script file into the container image.
+For the sake of example, let's say that you have a script file called `myscript.ps1`.
+We need to copy this script from the project directory (aka. Docker build context) into the new container image.
+
+By convention, I typically place code into the `/data` directory in the container filesystem.
+You're welcome to use any alternative directory structure that you prefer, however.
+
+The `WORKDIR` instruction tells Docker to set the current working directory to the specified path.
+If the directory doesn't already exist, Docker will create it for you.
+
+We'll use the `ADD` instruction to copy the `myscript.ps1` file from the same directory as `Dockerfile`, and place it into `/data`.
+The last argument is the destination directory, and the preceding arguments are the individual paths that you want to copy into the new container image.
+
+```
+WORKDIR /data
+ADD ["myscript.ps1", "/data/"]
+```
+
+Now your script file will be embedded into the new container image, when you run a build!
+
+### Set Container Image Entrypoint
+
+You could run a container image build at this point, but generally, container images include a custom entrypoint.
+Previously, we saw how running the PowerShell base image runs an interactive PowerShell session.
+However, we want to *modify* this behavior to make your custom script the entrypoint instead.
+
+Using the `ENTRYPOINT` instruction, we can tell Docker Engine to set a specific command as the entrypoint
+to our custom container image.
+This instruction simply accepts a JSON array of input arguments.
+The PowerShell binary, named `pwsh`, provides the `-File` parameter, which enables us to directly invoke a script file,
+instead of entering an interactive session.
+
+```
+ENTRYPOINT ["pwsh", "-Command", "/data/myscript.ps1"]
+```
+
+Since the `WORKDIR` has already been set to `/data`, you don't *have* to include the `/data/` prefix to `myscript.ps1`.
+However, I generally prefer to be more explicit, rather than rely on environmental settings.
+
+### Run Container Image Build
+
+You're finally ready to run a container image build!
+
+From your project directory, containing the `Dockerfile` and `myscript.ps1`, run the command below.
+
+```
+docker build --tag mypwsh .
+```
+
+The period at the end just indicates the "current directory" as the build context that's sent to the Docker Engine for processing.
+After the build process completes, you should be able to find your custom, tagged container image by running the following command.
+
+```
+docker image ls
+```
+
+If you don't see `mypwsh` in the list of local container images, then you most likely encountered an error during the build.
+
+### Test Your Custom Container Image
+
+Now that you've built a custom container image on top of the PowerShell base, let's test it out!
+We'll add a new argument `--rm` to the Docker CLI, that automatically removes the container after it exits.
+This helps prevent lots of outdated, stopped containers from clogging up your Docker Engine.
+
+Run this command to see the results of your script:
+
+```
+docker run --rm -it mypwsh
+```
+
+If the command hangs, you can use `CTRL + C` to abort execution of PowerShell, and the container.
+
+## Conclusion
+
+At this point, you should have successfully built your own custom container image on top of PowerShell!
+If you want to explore beyond this, like installing PowerShell modules into your custom image, check out the `RUN` instruction.
+Using `RUN`, you can execute arbitrary commands in your container image build, such as installing modules, so that your script
+has all of its dependencies available as soon as it starts.
+
+If you run into issues, feel free to reach out to me on social media channels, and I'll see if I can help you!
