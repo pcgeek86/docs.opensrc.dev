@@ -5,6 +5,8 @@ title: Popular Rust Crates
 
 ## CLI Tools
 
+CLI tools (binaries) written in Rust.
+
 | Name | Tags | Description |
 |-|-|-|
 | [bat](https://github.com/sharkdp/bat) | cli,shell | Rust clone of cat CLI tool |
@@ -34,26 +36,36 @@ title: Popular Rust Crates
 
 ## Graphical Rust Tools
 
+This section lists graphical tools that are built with Rust.
+
 | Name | Tags | Description |
 |-|-|-|
 | [Helix](https://github.com/helix-editor/helix) | gui,text,editor | post-modern modal text editor |
 
 ## Terminal Libraries
 
+Crates that allow you to manipulate terminal sessions.
+
 | Name | Tags | Description |
 |-|-|-|
 | [clap](https://github.com/clap-rs/clap) | cli,shell | full featured, fast Command Line Argument Parser |
 | [comfy-table](https://github.com/Nukesor/comfy-table) | cli,shell,tui | Build beautiful terminal tables with automatic content wrapping |
+| [console](https://github.com/console-rs/console) | cli,shell,ansi | console and terminal abstraction |
 | [crossterm](https://github.com/crossterm-rs/crossterm) | terminal | Cross-platform terminal library for Rust |
+| [dialoguer](https://github.com/console-rs/dialoguer) | terminal,input | utility library for nice command line prompts |
+| [indicatif](https://github.com/console-rs/indicatif) | terminal | command line progress reporting library |
 | [ratatui](https://github.com/ratatui-org/ratatui) | tui,terminal | Rust library that's all about cooking up terminal user interfaces |
 
 ## Async
+
+Crates that help you write asynchronous code in Rust.
 
 | Name | Tags | Description |
 |-|-|-|
 | [tokio](https://github.com/tokio-rs/tokio) | async | runtime for writing reliable asynchronous applications with Rust |
 | [rayon](https://github.com/rayon-rs/rayon) | parallel,async | data parallelism library |
-
+| [async-std](https://github.com/async-rs/async-std) | async | Async version of the Rust standard library |
+| [smol](https://github.com/smol-rs/smol) | async | small and fast async runtime for Rust |
 
 ## Other
 
@@ -62,13 +74,15 @@ title: Popular Rust Crates
 
 | [nom](https://github.com/rust-bakery/nom) | parser | Rust parser combinator framework |
 | [regex](https://github.com/rust-lang/regex) | regex,parser | implementation of regular expressions for Rust |
-| [image](https://github.com/image-rs/image) | image,file | Encoding and decoding images in Rust |
 | [tl](https://crates.io/crates/tl) | html,parser | fast HTML parser |
 
 ## Data
 
+Crates dealing with database platforms and data transformation.
+
 | Name | Tags | Description |
 |-|-|-|
+| [mongodb](https://github.com/mongodb/mongo-rust-driver) | database,nosql | official MongoDB Rust Driver |
 | [polars](https://github.com/pola-rs/polars/) | data | Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends |
 | [postgres](https://github.com/sfackler/rust-postgres) | data,database,postgres,sql | Native PostgreSQL driver for the Rust programming language |
 | [quickwit](https://github.com/quickwit-oss/quickwit) | data,search | Sub-second search & analytics engine on cloud storage |
@@ -79,6 +93,8 @@ title: Popular Rust Crates
 | [watchexec](https://github.com/watchexec/watchexec) | data,filesystem | Executes commands in response to file modifications |
 
 ## Networking
+
+Crates dealing with exposing or consuming network services.
 
 | Name | Tags | Description |
 |-|-|-|
@@ -93,6 +109,8 @@ title: Popular Rust Crates
 | [ureq](https://github.com/algesten/ureq) | http,web | A simple, safe HTTP client |
 
 ## User Interface
+
+Crates dealing with building graphical user interfaces (GUI).
 
 | Name | Tags | Description |
 |-|-|-|
@@ -114,10 +132,13 @@ title: Popular Rust Crates
 
 ## Graphics
 
+Crates dealing with 2D raster and vector media manipulation.
+
 | Name | Tags | Description |
 |-|-|-|
 | [ash](https://github.com/ash-rs/ash) | graphics, vulkan | lightweight wrapper around Vulkan |
 | [glium](https://github.com/glium/glium) | graphics, opengl | Safe OpenGL wrapper for the Rust language |
+| [image](https://github.com/image-rs/image) | image,file | Encoding and decoding images in Rust |
 | [miniquad](https://github.com/not-fl3/miniquad) | graphics | Cross platform rendering in Rust |
 | [resvg](https://github.com/RazrFalcon/resvg) | svg,image,vector | SVG rendering library |
 | [vulkano](https://github.com/vulkano-rs/vulkano) | graphics | Safe and rich Rust wrapper around the Vulkan API |
@@ -133,6 +154,8 @@ title: Popular Rust Crates
 | [sysinfo](https://github.com/GuillaumeGomez/sysinfo) | system,hardware | Cross-platform library to fetch system information |
 
 ## Profiling
+
+Crates that help analyze performance of Rust applications.
 
 | Name | Tags | Description |
 |-|-|-|
