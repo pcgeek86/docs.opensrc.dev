@@ -75,6 +75,7 @@ Crates that help you write asynchronous code in Rust.
 | [nom](https://github.com/rust-bakery/nom) | parser | Rust parser combinator framework |
 | [regex](https://github.com/rust-lang/regex) | regex,parser | implementation of regular expressions for Rust |
 | [tl](https://crates.io/crates/tl) | html,parser | fast HTML parser |
+| [chromiumoxide](https://github.com/mattsse/chromiumoxide) | chrome,browser | Chrome Devtools Protocol Rust API |
 
 ## Data
 
