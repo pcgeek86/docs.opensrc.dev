@@ -83,6 +83,7 @@ Crates dealing with database platforms and data transformation.
 
 | Name | Tags | Description |
 |-|-|-|
+| [fake](https://github.com/cksac/fake-rs) | data,generator | library for generating fake data |
 | [mongodb](https://github.com/mongodb/mongo-rust-driver) | database,nosql | official MongoDB Rust Driver |
 | [polars](https://github.com/pola-rs/polars/) | data | Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends |
 | [postgres](https://github.com/sfackler/rust-postgres) | data,database,postgres,sql | Native PostgreSQL driver for the Rust programming language |
