@@ -24,10 +24,11 @@ I'll list some of the more common ones here, but keep in mind that you are welco
 You can use any of these tools to create Linux virtual machines on your local development system.
 Some tools can be used cross-platform, while others are specific to certain operating systems.
 
-| Name                                                         | Description                                                                                                  | Platforms             |
-| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | --------------------- |
-| [Multipass](https://multipass.run)                           | Open source, cross-platform tool from Canonical, that easily creates Ubuntu Linux virtual machines           | Linux, MacOS, Windows |
-| [UTM](https://github.com/utmapp/UTM)                         | Open source tool for MacOS users, that can easily create Windows & Linux virtual machines from any ISO file  | MacOS                 |
-| [VirtualBox](https://www.virtualbox.org/)                    | Open source, cross-platform virtualization tool to create Windows & Linux virtual machines                   | Linux, MacOS, Windows |
-| [Vagrant](https://www.vagrantup.com/)                        | Open source, cross-platform CLI tool from Hashicorp that allows you to define virtual machines as code files | Linux, MacOS, Windows |
-| [Hyper-V](https://learn.microsoft.com/en-us/virtualization/) | The hypervisor that's built into the Windows platform. Install any guest operating system.                   | Windows               |
+| Name                                                           | Description                                                                                                  | Platforms             |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------- |
+| [Multipass](https://multipass.run)                             | Open source, cross-platform tool from Canonical, that easily creates Ubuntu Linux virtual machines           | Linux, MacOS, Windows |
+| [UTM](https://github.com/utmapp/UTM)                           | Open source tool for MacOS users, that can easily create Windows & Linux virtual machines from any ISO file  | MacOS                 |
+| [VirtualBox](https://www.virtualbox.org/)                      | Open source, cross-platform virtualization tool to create Windows & Linux virtual machines                   | Linux, MacOS, Windows |
+| [Vagrant](https://www.vagrantup.com/)                          | Open source, cross-platform CLI tool from Hashicorp that allows you to define virtual machines as code files | Linux, MacOS, Windows |
+| [Hyper-V](https://learn.microsoft.com/en-us/virtualization/)   | The hypervisor that's built into the Windows platform. Install any guest operating system.                   | Windows               |
+| [LXD (Incus)](https://linuxcontainers.org/incus/introduction/) | Official Linux Containers fork of LXD virtualization project                                                 | Linux                 |
