@@ -27,6 +27,7 @@ CLI tools (binaries) written in Rust.
 | [ouch](https://github.com/ouch-org/ouch) | cli,shell,compression,filesystem | compression and decompression for your terminal |
 | [procs](https://github.com/dalance/procs) | cli,shell | modern replacement for ps |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | cli,shell | recursively searches directories for a regex pattern while respecting your gitignore |
+| [RustScan](https://github.com/RustScan/RustScan) | cli,shell,nmap,network | Modern Port Scanner |
 | [sd](https://github.com/chmln/sd) | cli,shell | Intuitive find & replace CLI (sed alternative) |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | cli,shell | very fast implementation of tldr |
 | [tokei](https://github.com/XAMPPRocky/tokei) | cli,shell,code | displays statistics about your code |
