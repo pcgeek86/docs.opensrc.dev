@@ -106,6 +106,15 @@ Even with a policy in place, rogue employees might still be able to access your 
 | [Redis Stack](https://github.com/redis-stack/redis-stack) | Redis server with additional database capabilities powered by Redis modules |
 | [RethinkDB](https://github.com/rethinkdb/rethinkdb) | open-source database for the realtime web |
 
+## Database Management
+
+|Name|Description|
+|-|-|
+| [Adminer](https://github.com/vrana/adminer) | Database management in a single PHP file |
+| [pgAdmin](https://github.com/pgadmin-org/pgadmin4) | Admin tool for PostgreSQL |
+| [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin) | web interface for MySQL and MariaDB |
+| [pgwatch2](https://github.com/cybertec-postgresql/pgwatch2) | PostgreSQL metrics monitor/dashboard |
+
 ## Data Visualization
 
 |Name|Description|
