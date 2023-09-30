@@ -9,16 +9,16 @@ Even with a policy in place, rogue employees might still be able to access your 
 
 ## Low-Code / No-Code Tools
 
-|-|-|
 |Name|Description|
+|-|-|
 | [Baserow](https://gitlab.com/baserow/baserow) | open source no-code database and Airtable alternative |
 | [Grist](https://github.com/gristlabs/grist-core) | Grist is the evolution of spreadsheets |
 | [NocoDB](https://github.com/nocodb/nocodb) | Open Source Airtable Alternative |
 
 ## Observability Tools
 
-|-|-|
 |Name|Description|
+|-|-|
 | [Cacti](https://github.com/Cacti/cacti) | operational monitoring and fault management framework |
 | [Cortex](https://github.com/cortexproject) | horizontally scalable, highly available, multi-tenant, long term Prometheus |
 | [Graphite](https://github.com/graphite-project/graphite-web) | highly scalable real-time graphing system |
@@ -42,15 +42,21 @@ Even with a policy in place, rogue employees might still be able to access your 
 
 ## Authentication
 
+|Name|Description|
+|-|-|
 | [Supabase](https://github.com/supabase/supabase) | open source Firebase alternative |
 
 
 ## Privacy Tools
 
+|Name|Description|
+|-|-|
 | [Firefox Sync](https://github.com/mozilla-services/syncstorage-rs) | Mozilla Sync Storage built with Rust |
 
 ## Analytics
 
+|Name|Description|
+|-|-|
 | [Countly](https://github.com/Countly/countly-server) | product analytics platform that helps teams track, analyze and act-on their user actions and behaviour on mobile, web and desktop applications |
 | [GrowthBook](https://github.com/growthbook/growthbook) | Open Source Feature Flagging and A/B Testing Platform |
 | [Hastic](https://hastic.io/) | pattern and anomaly detection tool for time-series data |
@@ -63,6 +69,8 @@ Even with a policy in place, rogue employees might still be able to access your 
 
 ## Dev Tools
 
+|Name|Description|
+|-|-|
 | [ContainerSSH](https://containerssh.io/) | Launch containers on demand |
 | [Gitea](https://github.com/go-gitea/gitea) | Painless self-hosted all-in-one software development service |
 | [Forgejo](https://forgejo.org/) | self-hosted lightweight software forge |
@@ -73,10 +81,14 @@ Even with a policy in place, rogue employees might still be able to access your 
 
 ## Notes
 
+|Name|Description|
+|-|-|
 | [Memos](https://github.com/usememos/memos) | privacy-first, lightweight note-taking service |
 
 ## Database
 
+|Name|Description|
+|-|-|
 | [ArangoDB](https://github.com/arangodb/arangodb) | native multi-model database with flexible data models for documents, graphs, and key-values |
 | [Apache Cassandra](https://cassandra.apache.org/) | highly-scalable partitioned row store |
 | [ClickHouse](https://github.com/ClickHouse/ClickHouse) | free analytics DBMS for big data |
@@ -96,6 +108,8 @@ Even with a policy in place, rogue employees might still be able to access your 
 
 ## Data Visualization
 
+|Name|Description|
+|-|-|
 | [Apache Superset](https://github.com/apache/superset) | Data Visualization and Data Exploration Platform |
 | [Grafana](https://github.com/grafana/grafana) | open and composable observability and data visualization platform |
 | [Metabase](https://github.com/metabase/metabase) | simplest, fastest way to get business intelligence and analytics |
@@ -103,8 +117,8 @@ Even with a policy in place, rogue employees might still be able to access your 
 
 ## Storage
 
-|-|-|
 |Name|Description|
+|-|-|
 | [Minio](https://github.com/minio/minio) | High Performance Object Storage |
 | [Seafile](https://github.com/haiwen/seafile) | High performance file syncing and sharing, with also Markdown WYSIWYG editing, Wiki, file label and other knowledge management features |
 | [XBackBone](https://github.com/SergiX44/XBackBone) | lightweight file manager with full ShareX support |
@@ -114,10 +128,14 @@ Even with a policy in place, rogue employees might still be able to access your 
 
 Open source project management tools that you can host yourself.
 
+|Name|Description|
+|-|-|
 | [Taiga](https://github.com/taigaio/taiga) | free and open-source project management for cross-functional agile teams |
 
 ## Design Tools
 
+|Name|Description|
+|-|-|
 | [Penpot](https://github.com/penpot/penpot) | open source design & prototyping platform |
 | [Storybook](https://github.com/storybookjs/storybook) | frontend workshop for building UI components and pages in isolation |
 | [VisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) | Open source web design debug tools |
