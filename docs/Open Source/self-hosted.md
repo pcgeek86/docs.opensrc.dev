@@ -64,8 +64,8 @@ Even with a policy in place, rogue employees might still be able to access your 
 | [OpenReplay](https://github.com/openreplay/openreplay) | developer-friendly, self-hosted session replay |
 | [Plausible](https://github.com/plausible/analytics) | Simple, open source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics | 
 | [PostHog](https://github.com/PostHog/posthog) | open-source product analytics, session recording, feature flagging and A/B testing that you can self-host |
-| [Umami](https://github.com/umami-software/umami) | simple, fast, privacy-focused alternative to Google Analytics
-
+| [Umami](https://github.com/umami-software/umami) | simple, fast, privacy-focused alternative to Google Analytics |
+| [OpenPanel](https://github.com/Openpanel-dev/openpanel) | All the goodies from both Mixpanel and Plausible combined into one tool. |
 
 ## Dev Tools
 
