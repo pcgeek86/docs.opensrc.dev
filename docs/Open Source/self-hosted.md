@@ -1,3 +1,7 @@
+---
+title: Self-Hosted Software
+---
+
 # Self-Hosted Network Services
 
 This list contains some open-source, self-hosted services that you might want to run on your own network, or for your small business.
