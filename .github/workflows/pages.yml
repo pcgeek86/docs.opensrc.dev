@@ -41,8 +41,8 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Build Docusaurus site
         run: |
-          npm install
-          npm run build
+          yarn
+          yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
