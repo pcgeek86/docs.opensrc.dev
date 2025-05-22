@@ -1,10 +1,14 @@
+---
+title: Using PowerShell with FFmpeg
+---
+
 ## PowerShell and FFmpeg
 
-FFmpeg is the natural choice for almost any audio and video processing tasks.
+[FFmpeg](https://ffmpeg.org/) is the natural choice for almost any audio and video processing tasks.
 As a cross-platform, open source tool, it can be run almost anywhere: Windows, MacOS, Linux, Kubernetes, Docker containers, cloud platforms, etc.
 
 While FFmpeg is incredibly powerful on its own, the syntax can often be hard to remember.
-PowerShell provides a more human-friendly interface to run code, thanks to function & parameter naming conventions, parameter types, and can be used to "wrap" FFmpeg commands.
+[PowerShell](https://github.com/PowerShell/PowerShell) provides a more human-friendly interface to run code, thanks to function & parameter naming conventions, parameter types, and can be used to "wrap" FFmpeg commands.
 
 ### Concatenate Videos with PowerShell and FFmpeg
 
