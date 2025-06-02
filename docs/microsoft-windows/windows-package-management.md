@@ -54,6 +54,35 @@ scoop bucket add extras
 ### Popular Scoop Packages
 
 Some of the popular software development tools that you might need to install with the scoop package manager include the following.
+To search for scoop packages using a keyword, or partial keyword, you can use the `scoop search` command.
+
+```text
+scoop search kube
+```
+
+The search results will look similar to the following.
+
+```text
+PS C:\Users\TrevorSullivan> scoop search aws
+Results from local buckets...
+
+Name                       Version   Source Binaries
+----                       -------   ------ --------
+aws-amplify                13.0.1    main
+aws-copilot                1.34.1    main
+aws-ecs                    1.21.0    main
+aws-iam-authenticator      0.7.2     main
+aws-nuke                   3.55.0    main
+aws-sam-cli                1.139.0   main
+aws-vault                  7.2.0     main
+aws                        2.27.26   main
+```
+
+Once you've found the package you're interested in, you can install it with the `scoop install` command.
+
+```text
+scoop install <package-name>
+```
 
 | Name                         | Description                                                                                        | Install Command               |
 | ---------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------- |
@@ -79,3 +108,14 @@ Some of the popular software development tools that you might need to install wi
 | Telegraf                     | Open source, cross-platform metrics gathering agent from InfluxData                                | scoop install main/telegraf   |
 | Postman                      | Freeware REST API client GUI for testing APIs                                                      | scoop install extras/postman  |
 | Rufus                        | Open source tool for easily flashing bootable USB drives with operating system images              | scoop install extras/rufus    |
+
+
+### Security
+
+For your security, you should generally only install packages from the `main` and `extras` buckets.
+You should also ensure that you trust the author of each package before installing it.
+If there are newly added packages to the scoop repository, that are not well-known, you should do your own research on their code bases, and pre-compiled binaries, before installing them.
+
+Additionally, consider installing less trustworthy packages into a temporary, virtualized environment instead of directly on your development system.
+This could be a Hyper-V virtual machine, or a Docker container.
+For example, if you create a development VM on Hyper-V, take a snapshot before installing the package, then simply restore the VM snapshot if you no longer need the package.
