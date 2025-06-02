@@ -74,4 +74,3 @@ The command below creates an array of individual byte values, and pipes it into 
 ```pwsh
 [Byte[]]@(50, 100, 150, 120, 125, 153) | Set-Content -Path $HOME/file01.bin -AsByteStream
 ```
-
